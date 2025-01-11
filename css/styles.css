@@ -1,0 +1,203 @@
+body {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    background-color: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+/* Header-styles */
+
+.logo {
+    color: #2E2F42;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logo-web {
+    color: rgb(77, 90, 229);
+}
+
+.header-list {
+    color: rgb(67, 68, 85);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+}
+
+.contacts-list {
+    color: rgb(67, 68, 85);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+    font-style: normal;
+}
+
+/* Hero-styles */
+
+.hero {
+    background-color: rgb(46, 47, 66); 
+}
+
+.hero-text {
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-button {
+    background: rgb(77, 90, 229);
+    color: rgb(255, 255, 255);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    border: none;
+    outline: none;
+}
+
+/* Benefits-styles */
+
+.benefits-text {
+    visibility: hidden;
+}
+
+.benefit {
+    color: rgb(46, 47, 66);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    list-style-type: none;
+}
+
+.benefit-text {
+    color: rgb(67, 68, 85);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Team-styles */
+
+.team {
+    background-color: rgb(244, 244, 253);
+}
+
+.team-text {
+    color: rgb(46, 47, 66);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.member-name {
+    color: rgb(46, 47, 66);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.specialization {
+    color: rgb(67, 68, 85);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Portfolio-styles */
+
+.portfolio {
+    background-color: #ffffff; 
+}
+
+.portfolio-text {
+    color: rgb(46, 47, 66);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+}
+
+.sample-name {
+    color: rgb(46, 47, 66);
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.sample-type {
+    color: rgb(67, 68, 85);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Footer-styles */
+
+.footer {
+    background-color: rgb(46, 47, 66);
+}
+
+.footer-logo {
+    color: rgb(244, 244, 253);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-web {
+    color: rgb(77, 90, 229);
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.footer-slogan {
+    color: rgb(244, 244, 253);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
