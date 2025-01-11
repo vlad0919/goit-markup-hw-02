@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Arial", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: normal;
     background-color: #ffffff;
     color: #434455;
@@ -16,7 +16,7 @@ li {
 /* Header-styles */
 
 .logo {
-    color: #2E2F42;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
@@ -25,12 +25,17 @@ li {
     text-transform: uppercase;
 }
 
-.logo-web {
-    color: rgb(77, 90, 229);
+.logo:hover:focus {
+    color: #404bbf;
+}
+
+
+.logo-studio {
+    color: #2e2f42;
 }
 
 .header-list {
-    color: rgb(67, 68, 85);
+    color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -39,13 +44,17 @@ li {
 }
 
 .contacts-list {
-    color: rgb(67, 68, 85);
+    color: #434455;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     letter-spacing: 0.02em;
     list-style-type: none;
     font-style: normal;
+}
+
+.contacts-list:hover:focus {
+    color: #404bbf;
 }
 
 /* Hero-styles */
@@ -60,11 +69,13 @@ li {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .hero-button {
     background: rgb(77, 90, 229);
     color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -72,6 +83,10 @@ li {
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+.hero-button:hover:focus {
+    background-color: #404BBF;
 }
 
 /* Benefits-styles */
@@ -100,7 +115,7 @@ li {
 /* Team-styles */
 
 .team {
-    background-color: rgb(244, 244, 253);
+    background-color: #ffffff;
 }
 
 .team-text {
@@ -109,6 +124,8 @@ li {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
 }
 
 .member-name {
@@ -139,6 +156,7 @@ li {
     font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 .sample-name {
@@ -147,6 +165,7 @@ li {
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .sample-type {
@@ -164,8 +183,8 @@ li {
 }
 
 .footer-logo {
-    color: rgb(244, 244, 253);
-    font-family: Raleway;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -174,8 +193,8 @@ li {
 }
 
 .footer-web {
-    color: rgb(77, 90, 229);
-    font-family: Raleway;
+    color: #f4f4fd;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
