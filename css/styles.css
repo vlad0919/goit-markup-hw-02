@@ -25,7 +25,8 @@ li {
     text-transform: uppercase;
 }
 
-.logo:hover:focus {
+.logo:hover,
+.logo:focus {
     color: #404bbf;
 }
 
@@ -34,7 +35,7 @@ li {
     color: #2e2f42;
 }
 
-.header-list {
+.header-list-item {
     color: #2e2f42;
     font-size: 16px;
     font-weight: 500;
@@ -53,9 +54,10 @@ li {
     font-style: normal;
 }
 
-.contacts-list:hover:focus {
+.contacts-list:hover,
+.contacts-list:focus {
     color: #404bbf;
-}
+}               
 
 /* Hero-styles */
 
