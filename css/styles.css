@@ -1,7 +1,8 @@
 body {
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", "Arial", sans-serif;
     font-style: normal;
     background-color: #ffffff;
+    color: #434455;
 }
 
 a {
@@ -16,7 +17,7 @@ li {
 
 .logo {
     color: #2E2F42;
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17;
@@ -30,7 +31,6 @@ li {
 
 .header-list {
     color: rgb(67, 68, 85);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -40,7 +40,6 @@ li {
 
 .contacts-list {
     color: rgb(67, 68, 85);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -57,7 +56,6 @@ li {
 
 .hero-text {
     color: rgb(255, 255, 255);
-    font-family: Roboto;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -67,13 +65,13 @@ li {
 .hero-button {
     background: rgb(77, 90, 229);
     color: rgb(255, 255, 255);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 /* Benefits-styles */
@@ -84,7 +82,6 @@ li {
 
 .benefit {
     color: rgb(46, 47, 66);
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -94,7 +91,6 @@ li {
 
 .benefit-text {
     color: rgb(67, 68, 85);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -109,7 +105,6 @@ li {
 
 .team-text {
     color: rgb(46, 47, 66);
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -118,7 +113,6 @@ li {
 
 .member-name {
     color: rgb(46, 47, 66);
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -127,7 +121,6 @@ li {
 
 .specialization {
     color: rgb(67, 68, 85);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -142,7 +135,6 @@ li {
 
 .portfolio-text {
     color: rgb(46, 47, 66);
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -151,7 +143,6 @@ li {
 
 .sample-name {
     color: rgb(46, 47, 66);
-    font-family: Roboto;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -160,7 +151,6 @@ li {
 
 .sample-type {
     color: rgb(67, 68, 85);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -195,7 +185,6 @@ li {
 
 .footer-slogan {
     color: rgb(244, 244, 253);
-    font-family: Roboto;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
