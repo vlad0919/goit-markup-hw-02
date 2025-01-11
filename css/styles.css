@@ -73,7 +73,7 @@ li {
 }
 
 .hero-button {
-    background: rgb(77, 90, 229);
+    background: #4D5AE5;
     color: rgb(255, 255, 255);
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -85,7 +85,8 @@ li {
     cursor: pointer;
 }
 
-.hero-button:hover:focus {
+.hero-button:hover,
+.hero-button:focus {
     background-color: #404BBF;
 }
 
@@ -115,6 +116,10 @@ li {
 /* Team-styles */
 
 .team {
+    background-color: #F4F4FD;
+}
+
+.team-list {
     background-color: #ffffff;
 }
 
@@ -157,6 +162,7 @@ li {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
+    text-transform: capitalize;
 }
 
 .sample-name {
